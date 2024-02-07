@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: lightpink;
+}
+
+section {
+  position: relative;
+  height: 580px;
+  width: 580px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: palevioletred;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid palevioletred;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.content {
+  height: 250px;
+}
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.yesButton {
+  background-color: palevioletred;
+}
+
+@media screen and (max-width: 1200px) {
+  .animate {
+    position: absolute;
+    animation-name: moveRandomly;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes moveRandomly {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, 50px);
+  }
+  50% {
+    transform: translate(0, 100px);
+  }
+  75% {
+    transform: translate(-50px, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
