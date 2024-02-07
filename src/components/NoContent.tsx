@@ -22,13 +22,13 @@ export const NoContent = ({ noCount }: NoContentProps) => {
     <div className="content">
       {!noCount ? (
         <video key={noCount} autoPlay loop muted width="200px" height="200px">
-          <source src={`../src/assets/video/main.mp4`} type="video/mp4" />
+          <source src={`../../public/video/main.mp4`} type="video/mp4" />
         </video>
       ) : (
         <>
           <video key={noCount} autoPlay loop muted width="200px" height="200px">
             <source
-              src={`../assets/video/${(noCount % phrases.length) + 1}.mp4`}
+              src={`../../public/video/${(noCount % phrases.length) + 1}.mp4`}
               type="video/mp4"
             />
           </video>
