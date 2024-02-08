@@ -54,6 +54,7 @@ button {
   background-color: rgb(241, 234, 234);
   &:disabled {
     background-color: rgb(241, 234, 234);
+    cursor: default;
   }
 }
 p {
