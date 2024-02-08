@@ -51,6 +51,10 @@ button {
   cursor: pointer;
   outline: none;
   border: 1px solid palevioletred;
+  background-color: rgb(241, 234, 234);
+  &:disabled {
+    background-color: rgb(241, 234, 234);
+  }
 }
 p {
   font-family: Georgia, "Times New Roman", Times, serif;

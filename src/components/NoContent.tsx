@@ -1,10 +1,10 @@
 const phrases = [
   "No?",
-  "Are you sure?",
-  "Are you absolutely sure?",
-  "I'll be upset",
+  "Please be my Valentine",
+  "I need you",
+  "I'll be upset if you say No",
   "Why are you doing this to me?",
-  "I'm gonna cry...",
+  "I'm gonna cry if you say No...",
   "Who else if not you?",
   "You'll break my heart",
 ];

@@ -71,6 +71,7 @@ export const ButtonsSection = ({
         }
         style={noButtonStyles}
         className={noButtonClassName}
+        disabled={buttonSize === MAX_BUTTON_SIZE}
       >
         No
       </button>
