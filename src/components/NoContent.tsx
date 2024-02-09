@@ -30,7 +30,7 @@ export const NoContent = ({ noCount }: NoContentProps) => {
           width="200px"
           height="200px"
         >
-          <source src="/video/main.mp4" type="video/mp4" />
+          <source src="video/main.mp4" type="video/mp4" />
         </video>
       ) : (
         <>
@@ -44,7 +44,7 @@ export const NoContent = ({ noCount }: NoContentProps) => {
             height="200px"
           >
             <source
-              src={`/video/${(noCount % phrases.length) + 1}.mp4`}
+              src={`video/${(noCount % phrases.length) + 1}.mp4`}
               type="video/mp4"
             />
           </video>
